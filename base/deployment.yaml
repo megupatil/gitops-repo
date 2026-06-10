@@ -19,7 +19,7 @@ spec:
       containers:
       - name: frontend
 
-        image: us-central1-docker.pkg.dev/playground-s-11-f6bb753e/online-boutique/online-boutique:v1
+        image: us-central1-docker.pkg.dev/playground-s-11-f6bb753e/online-boutique/online-boutique:v2
 
         ports:
         - containerPort: 8080
