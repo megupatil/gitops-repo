@@ -8,9 +8,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/GoogleCloudPlatform/microservices-demo.git
+    repoURL: https://github.com/megupatil/gitops-repo.git
     targetRevision: HEAD
-    path: release/kubernetes-manifests
+    path: online-boutique
 
   destination:
     server: https://kubernetes.default.svc
