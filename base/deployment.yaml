@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: nginx:latest
+
+        image: us-central1-docker.pkg.dev/playground-s-11-f6bb753e/online-boutique/online-boutique:v1
 
         ports:
-        - containerPort: 80
+        - containerPort: 8080
